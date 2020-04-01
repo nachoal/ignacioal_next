@@ -941,7 +941,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/ignacio/code/nachoal/ignacioal_next/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/Users/Ignacio/code/learn/ignacioal_next/.next");
       return error;
     }
   };
